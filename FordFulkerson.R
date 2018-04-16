@@ -234,4 +234,4 @@ MaxFlow <- function (G,sources,sinks,sinkweights = NULL){
 
 data("rfid")
 G = rfid[]
-a = MaxFlow(G,c(1),c(75),c(0,100))
+a = MaxFlow(G,c(1),c(67,75),c(0,100))
